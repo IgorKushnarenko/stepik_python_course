@@ -27,7 +27,7 @@ finally:
     time.sleep(10)
     browser.quit()
 
-"""def calc(value):
+def calc(value):
   return str(math.log(abs(12*math.sin(int(value)))))
 
 
@@ -45,9 +45,8 @@ try:
 finally:
     time.sleep(10)
     browser.quit()
-"""
 
-"""def calc(value):
+def calc(value):
   return str(math.log(abs(12*math.sin(int(value)))))
 
 
@@ -63,9 +62,9 @@ try:
     browser.find_element(By.CSS_SELECTOR, '[type="submit"]').click()
 finally:
     time.sleep(5)
-    browser.quit()"""
+    browser.quit()
 
-"""link = 'http://suninjuly.github.io/file_input.html'
+link = 'http://suninjuly.github.io/file_input.html'
 browser = webdriver.Chrome()
 try:
     browser.get(link)
@@ -82,9 +81,9 @@ try:
     browser.find_element(By.CSS_SELECTOR, '[type="submit"]').click()
 finally:
     time.sleep(5)
-    browser.quit()"""
+    browser.quit()
 
-"""def calc(value):
+def calc(value):
   return str(math.log(abs(12*math.sin(int(value)))))
 
 
@@ -105,11 +104,11 @@ try:
     button.click()
 finally:
     time.sleep(5)
-    browser.quit()"""
+    browser.quit()
 
 
 
-"""link = 'http://suninjuly.github.io/selects1.html'
+link = 'http://suninjuly.github.io/selects1.html'
 browser = webdriver.Chrome()
 try:
     browser.get(link)
@@ -121,9 +120,9 @@ try:
     button.click()
 finally:
     time.sleep(5)
-    browser.quit()"""
+    browser.quit()
 
-"""def calc(value):
+def calc(value):
   return str(math.log(abs(12*math.sin(int(value)))))
 
 
@@ -153,9 +152,9 @@ try:
     button_submit.click()
 finally:
     time.sleep(5)
-    browser.quit()"""
+    browser.quit()
 
-"""def calc(value):
+def calc(value):
   return str(math.log(abs(12*math.sin(int(value)))))
 
 
@@ -176,8 +175,8 @@ try:
 finally:
     time.sleep(5)
     browser.quit()
-"""
-"""link = 'http://suninjuly.github.io/registration2.html'
+
+link = 'http://suninjuly.github.io/registration2.html'
 browser = webdriver.Chrome()
 try:
     browser.get(link)
@@ -199,10 +198,10 @@ try:
 
 finally:
     time.sleep(10)
-    browser.quit()"""
+    browser.quit()
 
 
-"""link = "http://suninjuly.github.io/find_link_text"
+link = "http://suninjuly.github.io/find_link_text"
 browser = webdriver.Chrome()
 
 try:
@@ -223,8 +222,8 @@ try:
 
 finally:
     browser.quit()
-"""
-"""link = 'http://suninjuly.github.io/huge_form.html'
+
+link = 'http://suninjuly.github.io/huge_form.html'
 browser = webdriver.Chrome()
 try:
     browser.get(link)
@@ -235,9 +234,9 @@ try:
     browser.find_element(By.CLASS_NAME, 'btn').click()
 finally:
     time.sleep(5)
-    browser.quit()"""
+    browser.quit()
 
-"""link = "http://suninjuly.github.io/find_xpath_form"
+link = "http://suninjuly.github.io/find_xpath_form"
 browser = webdriver.Chrome()
 
 try:
@@ -255,4 +254,4 @@ try:
     time.sleep(5)
 
 finally:
-    browser.quit()"""
+    browser.quit()
