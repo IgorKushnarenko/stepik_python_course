@@ -27,7 +27,7 @@ finally:
     time.sleep(10)
     browser.quit()
 
-def calc(value):
+"""def calc(value):
   return str(math.log(abs(12*math.sin(int(value)))))
 
 
@@ -254,4 +254,4 @@ try:
     time.sleep(5)
 
 finally:
-    browser.quit()
+    browser.quit()"""
