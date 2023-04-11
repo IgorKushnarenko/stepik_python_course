@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-class front_end_test(unittest.TestCase):
+class TestFrontEnd(unittest.TestCase):
     def passed_test(self):
         link = 'http://suninjuly.github.io/registration1.html'
         browser = webdriver.Chrome()
@@ -25,6 +25,7 @@ class front_end_test(unittest.TestCase):
         welcome_text = welcome_text_elem.text
         expected_result = 'Congratulations! You have successfully registered!'
         self.assertEquals(expected_result, welcome_text, 'Welcome text doesn"t match expected result')
+
 
     def failed_test(self):
         link = 'http://suninjuly.github.io/registration2.html'
@@ -47,6 +48,6 @@ class front_end_test(unittest.TestCase):
         expected_result = 'Congratulations! You have successfully registered!'
         self.assertEquals(expected_result, welcome_text, 'Welcome text doesn"t match expected result')
 
-print(__name__)
+
 if __name__ == "__main__":
     unittest.main()
