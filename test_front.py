@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-class TestFrontEnd(unittest.TestCase):
-    def passed_test(self):
+class Test_front_end(unittest.TestCase):
+    def test_succes(self):
         link = 'http://suninjuly.github.io/registration1.html'
         browser = webdriver.Chrome()
         browser.get(link)
@@ -24,10 +24,9 @@ class TestFrontEnd(unittest.TestCase):
         welcome_text_elem = browser.find_element(By.TAG_NAME, 'h1')
         welcome_text = welcome_text_elem.text
         expected_result = 'Congratulations! You have successfully registered!'
-        self.assertEquals(expected_result, welcome_text, 'Welcome text doesn"t match expected result')
+        self.assertEqual(expected_result, welcome_text, 'Welcome text doesn"t match expected result')
 
-
-    def failed_test(self):
+    def test_failed(self):
         link = 'http://suninjuly.github.io/registration2.html'
         browser = webdriver.Chrome()
         browser.get(link)
@@ -46,7 +45,7 @@ class TestFrontEnd(unittest.TestCase):
         welcome_text_elem = browser.find_element(By.TAG_NAME, 'h1')
         welcome_text = welcome_text_elem.text
         expected_result = 'Congratulations! You have successfully registered!'
-        self.assertEquals(expected_result, welcome_text, 'Welcome text doesn"t match expected result')
+        self.assertEqual(expected_result, welcome_text, 'Welcome text doesn"t match expected result')
 
 
 if __name__ == "__main__":
